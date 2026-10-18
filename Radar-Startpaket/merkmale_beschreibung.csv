@@ -1,0 +1,89 @@
+merkmal,gruppe,einheit,beschreibung
+dau_aktiv_s,Dauer,s,Dauer des aktiven Bereichs
+dau_anteil,Dauer,1,Anteil des aktiven Bereichs am 5-s-Ausschnitt
+dau_schwerpunkt_rel,Dauer,1,Zeitlicher Energieschwerpunkt relativ zur Ausschnittlänge
+dau_energie_std_db,Dauer,dB,Standardabweichung der Rahmenenergie im aktiven Bereich
+zen_mw,Doppler-Schwerpunkt,m/s,Mittlere Geschwindigkeit des Körpers je Zeitrahmen: Mittelwert über die Zeit
+zen_std,Doppler-Schwerpunkt,m/s,Mittlere Geschwindigkeit des Körpers je Zeitrahmen: Standardabweichung über die Zeit
+zen_p10,Doppler-Schwerpunkt,m/s,Mittlere Geschwindigkeit des Körpers je Zeitrahmen: 10-%-Quantil über die Zeit
+zen_p50,Doppler-Schwerpunkt,m/s,Mittlere Geschwindigkeit des Körpers je Zeitrahmen: Median über die Zeit
+zen_p90,Doppler-Schwerpunkt,m/s,Mittlere Geschwindigkeit des Körpers je Zeitrahmen: 90-%-Quantil über die Zeit
+zen_min,Doppler-Schwerpunkt,m/s,Mittlere Geschwindigkeit des Körpers je Zeitrahmen: Minimum über die Zeit
+zen_max,Doppler-Schwerpunkt,m/s,Mittlere Geschwindigkeit des Körpers je Zeitrahmen: Maximum über die Zeit
+bw_mw,Doppler-Bandbreite,m/s,"Streuung der Geschwindigkeiten je Zeitrahmen (Arme, Beine): Mittelwert über die Zeit"
+bw_std,Doppler-Bandbreite,m/s,"Streuung der Geschwindigkeiten je Zeitrahmen (Arme, Beine): Standardabweichung über die Zeit"
+bw_p10,Doppler-Bandbreite,m/s,"Streuung der Geschwindigkeiten je Zeitrahmen (Arme, Beine): 10-%-Quantil über die Zeit"
+bw_p50,Doppler-Bandbreite,m/s,"Streuung der Geschwindigkeiten je Zeitrahmen (Arme, Beine): Median über die Zeit"
+bw_p90,Doppler-Bandbreite,m/s,"Streuung der Geschwindigkeiten je Zeitrahmen (Arme, Beine): 90-%-Quantil über die Zeit"
+bw_min,Doppler-Bandbreite,m/s,"Streuung der Geschwindigkeiten je Zeitrahmen (Arme, Beine): Minimum über die Zeit"
+bw_max,Doppler-Bandbreite,m/s,"Streuung der Geschwindigkeiten je Zeitrahmen (Arme, Beine): Maximum über die Zeit"
+hup_mw,Obere Hüllkurve,m/s,95-%-Quantil der Geschwindigkeit je Zeitrahmen: Mittelwert über die Zeit
+hup_std,Obere Hüllkurve,m/s,95-%-Quantil der Geschwindigkeit je Zeitrahmen: Standardabweichung über die Zeit
+hup_p10,Obere Hüllkurve,m/s,95-%-Quantil der Geschwindigkeit je Zeitrahmen: 10-%-Quantil über die Zeit
+hup_p50,Obere Hüllkurve,m/s,95-%-Quantil der Geschwindigkeit je Zeitrahmen: Median über die Zeit
+hup_p90,Obere Hüllkurve,m/s,95-%-Quantil der Geschwindigkeit je Zeitrahmen: 90-%-Quantil über die Zeit
+hup_min,Obere Hüllkurve,m/s,95-%-Quantil der Geschwindigkeit je Zeitrahmen: Minimum über die Zeit
+hup_max,Obere Hüllkurve,m/s,95-%-Quantil der Geschwindigkeit je Zeitrahmen: Maximum über die Zeit
+hlo_mw,Untere Hüllkurve,m/s,5-%-Quantil der Geschwindigkeit je Zeitrahmen: Mittelwert über die Zeit
+hlo_std,Untere Hüllkurve,m/s,5-%-Quantil der Geschwindigkeit je Zeitrahmen: Standardabweichung über die Zeit
+hlo_p10,Untere Hüllkurve,m/s,5-%-Quantil der Geschwindigkeit je Zeitrahmen: 10-%-Quantil über die Zeit
+hlo_p50,Untere Hüllkurve,m/s,5-%-Quantil der Geschwindigkeit je Zeitrahmen: Median über die Zeit
+hlo_p90,Untere Hüllkurve,m/s,5-%-Quantil der Geschwindigkeit je Zeitrahmen: 90-%-Quantil über die Zeit
+hlo_min,Untere Hüllkurve,m/s,5-%-Quantil der Geschwindigkeit je Zeitrahmen: Minimum über die Zeit
+hlo_max,Untere Hüllkurve,m/s,5-%-Quantil der Geschwindigkeit je Zeitrahmen: Maximum über die Zeit
+pk_mw,Maximum,m/s,Geschwindigkeit des stärksten Echos je Zeitrahmen (Rumpf): Mittelwert über die Zeit
+pk_std,Maximum,m/s,Geschwindigkeit des stärksten Echos je Zeitrahmen (Rumpf): Standardabweichung über die Zeit
+pk_p10,Maximum,m/s,Geschwindigkeit des stärksten Echos je Zeitrahmen (Rumpf): 10-%-Quantil über die Zeit
+pk_p50,Maximum,m/s,Geschwindigkeit des stärksten Echos je Zeitrahmen (Rumpf): Median über die Zeit
+pk_p90,Maximum,m/s,Geschwindigkeit des stärksten Echos je Zeitrahmen (Rumpf): 90-%-Quantil über die Zeit
+pk_min,Maximum,m/s,Geschwindigkeit des stärksten Echos je Zeitrahmen (Rumpf): Minimum über die Zeit
+pk_max,Maximum,m/s,Geschwindigkeit des stärksten Echos je Zeitrahmen (Rumpf): Maximum über die Zeit
+zen_schiefe,Doppler-Schwerpunkt,1,Schiefe des Doppler-Schwerpunkts über die Zeit
+zen_beschl_max,Doppler-Schwerpunkt,m/s²,Größte Änderung des Doppler-Schwerpunkts je Sekunde (Beschleunigung)
+hup_hlo_spanne_mw,Obere Hüllkurve,m/s,Mittlerer Abstand obere − untere Hüllkurve
+ban_auf_0.1_0.5,Geschwindigkeitsbänder,1,"Energieanteil bei 0,1 ≤ |v| < 0,5 m/s, auf das Radar zu"
+ban_weg_0.1_0.5,Geschwindigkeitsbänder,1,"Energieanteil bei 0,1 ≤ |v| < 0,5 m/s, vom Radar weg"
+ban_auf_0.5_1,Geschwindigkeitsbänder,1,"Energieanteil bei 0,5 ≤ |v| < 1 m/s, auf das Radar zu"
+ban_weg_0.5_1,Geschwindigkeitsbänder,1,"Energieanteil bei 0,5 ≤ |v| < 1 m/s, vom Radar weg"
+ban_auf_1_2,Geschwindigkeitsbänder,1,"Energieanteil bei 1 ≤ |v| < 2 m/s, auf das Radar zu"
+ban_weg_1_2,Geschwindigkeitsbänder,1,"Energieanteil bei 1 ≤ |v| < 2 m/s, vom Radar weg"
+ban_auf_2_4,Geschwindigkeitsbänder,1,"Energieanteil bei 2 ≤ |v| < 4 m/s, auf das Radar zu"
+ban_weg_2_4,Geschwindigkeitsbänder,1,"Energieanteil bei 2 ≤ |v| < 4 m/s, vom Radar weg"
+ban_auf_4_7,Geschwindigkeitsbänder,1,"Energieanteil bei 4 ≤ |v| < 7 m/s, auf das Radar zu"
+ban_weg_4_7,Geschwindigkeitsbänder,1,"Energieanteil bei 4 ≤ |v| < 7 m/s, vom Radar weg"
+ban_asymmetrie,Geschwindigkeitsbänder,1,Energie (auf − weg) / Gesamtenergie
+cep_01_mw,Cepstrum,1,Cepstralkoeffizient 1: Mittelwert über die Zeit
+cep_01_std,Cepstrum,1,Cepstralkoeffizient 1: Standardabweichung über die Zeit
+cep_02_mw,Cepstrum,1,Cepstralkoeffizient 2: Mittelwert über die Zeit
+cep_02_std,Cepstrum,1,Cepstralkoeffizient 2: Standardabweichung über die Zeit
+cep_03_mw,Cepstrum,1,Cepstralkoeffizient 3: Mittelwert über die Zeit
+cep_03_std,Cepstrum,1,Cepstralkoeffizient 3: Standardabweichung über die Zeit
+cep_04_mw,Cepstrum,1,Cepstralkoeffizient 4: Mittelwert über die Zeit
+cep_04_std,Cepstrum,1,Cepstralkoeffizient 4: Standardabweichung über die Zeit
+cep_05_mw,Cepstrum,1,Cepstralkoeffizient 5: Mittelwert über die Zeit
+cep_05_std,Cepstrum,1,Cepstralkoeffizient 5: Standardabweichung über die Zeit
+cep_06_mw,Cepstrum,1,Cepstralkoeffizient 6: Mittelwert über die Zeit
+cep_06_std,Cepstrum,1,Cepstralkoeffizient 6: Standardabweichung über die Zeit
+cep_07_mw,Cepstrum,1,Cepstralkoeffizient 7: Mittelwert über die Zeit
+cep_07_std,Cepstrum,1,Cepstralkoeffizient 7: Standardabweichung über die Zeit
+cep_08_mw,Cepstrum,1,Cepstralkoeffizient 8: Mittelwert über die Zeit
+cep_08_std,Cepstrum,1,Cepstralkoeffizient 8: Standardabweichung über die Zeit
+cep_09_mw,Cepstrum,1,Cepstralkoeffizient 9: Mittelwert über die Zeit
+cep_09_std,Cepstrum,1,Cepstralkoeffizient 9: Standardabweichung über die Zeit
+cep_10_mw,Cepstrum,1,Cepstralkoeffizient 10: Mittelwert über die Zeit
+cep_10_std,Cepstrum,1,Cepstralkoeffizient 10: Standardabweichung über die Zeit
+cep_11_mw,Cepstrum,1,Cepstralkoeffizient 11: Mittelwert über die Zeit
+cep_11_std,Cepstrum,1,Cepstralkoeffizient 11: Standardabweichung über die Zeit
+cep_12_mw,Cepstrum,1,Cepstralkoeffizient 12: Mittelwert über die Zeit
+cep_12_std,Cepstrum,1,Cepstralkoeffizient 12: Standardabweichung über die Zeit
+svd_1,Singulärwerte,1,1. normierter Singulärwert (Summe aller = 1)
+svd_2,Singulärwerte,1,2. normierter Singulärwert (Summe aller = 1)
+svd_3,Singulärwerte,1,3. normierter Singulärwert (Summe aller = 1)
+svd_4,Singulärwerte,1,4. normierter Singulärwert (Summe aller = 1)
+svd_5,Singulärwerte,1,5. normierter Singulärwert (Summe aller = 1)
+spek_kurtosis,Spektrogramm,1,Kurtosis der dB-Werte des aktiven Spektrogramms
+spek_entropie,Spektrogramm,nat,Entropie der normierten Leistungsverteilung
+rng_mittel_m,Entfernung,m,Mittlere Entfernung
+rng_spanne_m,Entfernung,m,Spanne der Entfernung (max − min)
+rng_delta_m,Entfernung,m,Entfernung am Ende − am Anfang
+rng_steigung_mps,Entfernung,m/s,Steigung einer Ausgleichsgeraden der Entfernung über der Zeit
